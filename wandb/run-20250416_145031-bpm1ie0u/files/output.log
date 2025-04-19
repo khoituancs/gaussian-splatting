@@ -1,0 +1,7 @@
+
+Scene: D:\Sem 242\Specialized project\3dgs_pretrained_models\drjohnson
+Method: ours_30000
+Metric evaluation progress: 100%|████████████████████████████████████████████████████████████| 33/33 [00:40<00:00,  1.22s/it]
+  SSIM :    0.8988737
+  PSNR :   28.9749317
+  LPIPS:    0.2444929

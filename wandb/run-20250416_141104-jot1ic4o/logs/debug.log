@@ -1,0 +1,23 @@
+2025-04-16 14:11:04,578 INFO    MainThread:52948 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-16 14:11:04,578 INFO    MainThread:52948 [wandb_setup.py:_flush():67] Configure stats pid to 52948
+2025-04-16 14:11:04,578 INFO    MainThread:52948 [wandb_setup.py:_flush():67] Loading settings from C:\Users\KHOI TUAN\.config\wandb\settings
+2025-04-16 14:11:04,578 INFO    MainThread:52948 [wandb_setup.py:_flush():67] Loading settings from D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\wandb\settings
+2025-04-16 14:11:04,578 INFO    MainThread:52948 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-16 14:11:04,579 INFO    MainThread:52948 [wandb_init.py:setup_run_log_directory():662] Logging user logs to D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\wandb\run-20250416_141104-jot1ic4o\logs\debug.log
+2025-04-16 14:11:04,587 INFO    MainThread:52948 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\wandb\run-20250416_141104-jot1ic4o\logs\debug-internal.log
+2025-04-16 14:11:04,587 INFO    MainThread:52948 [wandb_init.py:init():781] calling init triggers
+2025-04-16 14:11:04,588 INFO    MainThread:52948 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'sh_degree': 3, 'source_path': 'D:\\Sem 242\\Specialized project\\mip', 'model_path': './output/5a2a0ee5-9', 'images': 'images', 'depths': '', 'resolution': -1, 'white_background': False, 'train_test_exp': False, 'data_device': 'cuda', 'eval': False, '_wandb': {}}
+2025-04-16 14:11:04,588 INFO    MainThread:52948 [wandb_init.py:init():809] starting backend
+2025-04-16 14:11:04,588 INFO    MainThread:52948 [wandb_init.py:init():813] sending inform_init request
+2025-04-16 14:11:04,749 INFO    MainThread:52948 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-16 14:11:04,749 INFO    MainThread:52948 [wandb_init.py:init():823] backend started and connected
+2025-04-16 14:11:04,752 INFO    MainThread:52948 [wandb_init.py:init():915] updated telemetry
+2025-04-16 14:11:04,879 INFO    MainThread:52948 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-16 14:11:05,670 INFO    MainThread:52948 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-16 14:11:05,922 INFO    MainThread:52948 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-16 14:11:05,923 INFO    MainThread:52948 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-16 14:11:05,923 INFO    MainThread:52948 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-16 14:11:05,923 INFO    MainThread:52948 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-16 14:11:05,928 INFO    MainThread:52948 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-16 14:15:52,597 INFO    MsgRouterThr:52948 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

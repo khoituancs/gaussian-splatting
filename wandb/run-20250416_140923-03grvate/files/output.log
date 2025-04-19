@@ -1,0 +1,30 @@
+Reading camera 141/141 [16/04 14:09:25]
+Loading Training Cameras [16/04 14:09:25]
+Traceback (most recent call last):
+  File "D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\train.py", line 298, in <module>
+    training(lp.extract(args), op.extract(args), pp.extract(args), args.test_iterations, args.save_iterations, args.checkpoint_iterations, args.start_checkpoint, args.debug_from)
+  File "D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\train.py", line 52, in training
+    scene = Scene(dataset, gaussians)
+  File "D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\scene\__init__.py", line 73, in __init__
+    self.train_cameras[resolution_scale] = cameraList_from_camInfos(scene_info.train_cameras, resolution_scale, args, scene_info.is_nerf_synthetic, False)
+  File "D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\utils\camera_utils.py", line 73, in cameraList_from_camInfos
+    camera_list.append(loadCam(args, id, c, resolution_scale, is_nerf_synthetic, is_test_dataset))
+  File "D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\utils\camera_utils.py", line 21, in loadCam
+    image = Image.open(cam_info.image_path)
+  File "D:\conda_envs\gaussian_splatting_benchmark\lib\site-packages\PIL\Image.py", line 3431, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Sem 242\\Specialized project\\mip\\images\\_DSC8893.JPG'
+Traceback (most recent call last):
+  File "D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\train.py", line 298, in <module>
+    training(lp.extract(args), op.extract(args), pp.extract(args), args.test_iterations, args.save_iterations, args.checkpoint_iterations, args.start_checkpoint, args.debug_from)
+  File "D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\train.py", line 52, in training
+    scene = Scene(dataset, gaussians)
+  File "D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\scene\__init__.py", line 73, in __init__
+    self.train_cameras[resolution_scale] = cameraList_from_camInfos(scene_info.train_cameras, resolution_scale, args, scene_info.is_nerf_synthetic, False)
+  File "D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\utils\camera_utils.py", line 73, in cameraList_from_camInfos
+    camera_list.append(loadCam(args, id, c, resolution_scale, is_nerf_synthetic, is_test_dataset))
+  File "D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\utils\camera_utils.py", line 21, in loadCam
+    image = Image.open(cam_info.image_path)
+  File "D:\conda_envs\gaussian_splatting_benchmark\lib\site-packages\PIL\Image.py", line 3431, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Sem 242\\Specialized project\\mip\\images\\_DSC8893.JPG'

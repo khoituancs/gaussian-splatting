@@ -1,0 +1,17 @@
+------------LLFF HOLD------------- [16/04 14:26:39]
+Reading camera 141/141 [16/04 14:26:39]
+Loading Training Cameras [16/04 14:26:39]
+Loading Test Cameras [16/04 14:26:41]
+Number of points at initialisation :  52363 [16/04 14:26:41]
+Training progress:  14%|██▏             | 4160/30000 [06:14<14:40:12,  2.04s/it, Loss=0.1063747, Depth Loss=0.0000000]Traceback (most recent call last):
+  File "D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\train.py", line 304, in <module>
+    training(lp.extract(args), op.extract(args), pp.extract(args), args.test_iterations, args.save_iterations, args.checkpoint_iterations, args.start_checkpoint, args.debug_from)
+  File "D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\train.py", line 149, in training
+    ema_loss_for_log = 0.4 * loss.item() + 0.6 * ema_loss_for_log
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\train.py", line 304, in <module>
+    training(lp.extract(args), op.extract(args), pp.extract(args), args.test_iterations, args.save_iterations, args.checkpoint_iterations, args.start_checkpoint, args.debug_from)
+  File "D:\Sem 242\gaussian-splatting-benchmark\gaussian-splatting\train.py", line 149, in training
+    ema_loss_for_log = 0.4 * loss.item() + 0.6 * ema_loss_for_log
+KeyboardInterrupt

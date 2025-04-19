@@ -1,0 +1,10 @@
+imageio[ffmpeg]
+opencv-python
+lpips
+gdown
+joblib
+wandb
+
+./submodules/diff-gaussian-rasterization
+./submodules/simple-knn
+./submodules/fused-ssim

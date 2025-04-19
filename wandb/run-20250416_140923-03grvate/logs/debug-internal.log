@@ -1,0 +1,15 @@
+{"time":"2025-04-16T14:09:23.3053529+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"D:\\Sem 242\\gaussian-splatting-benchmark\\gaussian-splatting\\wandb\\run-20250416_140923-03grvate\\logs\\debug-core.log"}
+{"time":"2025-04-16T14:09:23.961866+07:00","level":"INFO","msg":"created new stream","id":"03grvate"}
+{"time":"2025-04-16T14:09:23.961866+07:00","level":"INFO","msg":"stream: started","id":"03grvate"}
+{"time":"2025-04-16T14:09:23.961866+07:00","level":"INFO","msg":"handler: started","stream_id":"03grvate"}
+{"time":"2025-04-16T14:09:23.961866+07:00","level":"INFO","msg":"sender: started","stream_id":"03grvate"}
+{"time":"2025-04-16T14:09:23.961866+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"03grvate"}
+{"time":"2025-04-16T14:09:24.318975+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T14:09:25.9836705+07:00","level":"INFO","msg":"stream: closing","id":"03grvate"}
+{"time":"2025-04-16T14:09:25.9836705+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T14:09:25.9836705+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T14:09:26.8845579+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T14:09:27.217585+07:00","level":"INFO","msg":"sender: closed","stream_id":"03grvate"}
+{"time":"2025-04-16T14:09:27.217585+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"03grvate"}
+{"time":"2025-04-16T14:09:27.217585+07:00","level":"INFO","msg":"handler: closed","stream_id":"03grvate"}
+{"time":"2025-04-16T14:09:27.2180902+07:00","level":"INFO","msg":"stream: closed","id":"03grvate"}
